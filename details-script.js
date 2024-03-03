@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
             .then((res) => res.json())
             .then((res) => {
               const borderItem = document.createElement("a");
-              borderItem.href = `/details.html?country=${res[0].name.official}`;
+              borderItem.href = `details.html?country=${res[0].name.official}`;
               borderItem.className =
                 "inline-block max-w-60 bg-white shadow-md rounded-sm py-1 px-6 cursor-pointer mr-2 mb-2";
               borderItem.textContent = res[0].name.common;
