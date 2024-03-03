@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- [Live Site URL](https://xdv99.github.io/Frontend-Mentor-advice-generator-app/)
+- [Live Site URL](https://xdv99.github.io/rest-countries-api-with-color-theme-switcher-master/)
 
 ### Screenshot
 |       Desktop Design        |       Mobile Design        |
