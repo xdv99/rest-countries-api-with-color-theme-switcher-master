@@ -15,7 +15,7 @@ function getData(query) {
           "w-[280px]",
           "card"
         );
-        card.href = `/details.html?country=${country.name.official}`;
+        card.href = `details.html?country=${country.name.official}`;
         card.innerHTML = `
           <img class="w-full rounded-t-md max-h-44" src="${
             country.flags.png
