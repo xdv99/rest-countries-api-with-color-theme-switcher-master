@@ -1,0 +1,93 @@
+/* 
+Dark Blue (Dark Mode Elements): hsl(209, 23%, 22%)
+Very Dark Blue (Dark Mode Background): hsl(207, 26%, 17%)
+Very Dark Blue (Light Mode Text): hsl(200, 15%, 8%)
+Dark Gray (Light Mode Input): hsl(0, 0%, 52%)
+Very Light Gray (Light Mode Background): hsl(0, 0%, 98%)
+White (Dark Mode Text & Light Mode Elements): hsl(0, 0%, 100%)
+
+Body Copy
+Homepage Items: 14px
+Detail Page: 16px
+Fonts
+Family: Nunito Sans
+Weights: 300, 600, 800
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+
+/* Header */
+
+header {
+    background-color: white;
+}
+
+.container {
+    padding: 25px 20px;
+    max-width: unset;
+    display: flex;
+}
+
+header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* Search */
+
+#search .container {
+    flex-direction: column;
+}
+
+#search-input {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 1px 6px 1px #dfdddd;
+    border-radius: 5px;
+    color: hsl(0, 0%, 52%);
+}
+
+#search-input input {
+    border: unset;
+    outline: none;
+    flex: 1;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+
+
+#filter {
+    width: 200px;
+    padding: 10px 20px;
+    border-right: 20px solid transparent;
+    background-color: white;
+    box-shadow: 0 1px 6px 1px #dfdddd;
+    border: unset;
+    outline: unset;
+    color: hsl(0, 0%, 52%);
+}
+
+#filter select option:disabled {display: none}
